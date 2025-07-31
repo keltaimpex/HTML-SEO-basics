@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Accessible & SEO-Friendly Web Page</title>
+  <meta name="description" content="A beginner-friendly, accessible HTML5 web page using semantic structure and SEO best practices.">
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic tags, web development basics">
+  <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Semantic HTML Page</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#content">Main Content</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <p>This page is a simple demonstration of semantic HTML5 structure, accessibility best practices, and basic SEO principles. It is designed to be readable by both humans and search engines.</p>
+    </section>
+
+    <section id="content" aria-labelledby="content-heading">
+      <h2 id="content-heading">Main Content</h2>
+
+      <article aria-labelledby="article1-heading">
+        <h3 id="article1-heading">Why Use Semantic HTML?</h3>
+        <p>Semantic HTML helps browsers, developers, and assistive technologies understand the structure and purpose of web content. It improves both accessibility and SEO.</p>
+      </article>
+
+      <article aria-labelledby="article2-heading">
+        <h3 id="article2-heading">Accessibility Matters</h3>
+        <p>Using proper landmarks and labels makes content easier to navigate for users with disabilities. Screen readers rely on structured content to guide users effectively.</p>
+      </article>
+
+      <article aria-labelledby="article3-heading">
+        <h3 id="article3-heading">SEO Best Practices</h3>
+        <p>Search engines prioritize content that is clearly structured with headings, descriptive text, and meaningful metadata. This page includes essential SEO elements like title and meta description.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Information</h2>
+      <address>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Location: Nairobi, Kenya</p>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
